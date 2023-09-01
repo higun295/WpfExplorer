@@ -1,0 +1,4 @@
+C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.AssemblyInfoInputs.cache
+C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.AssemblyInfo.cs
+C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.csproj.CoreCompileInputs.cache
