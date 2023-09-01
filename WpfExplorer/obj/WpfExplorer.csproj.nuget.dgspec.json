@@ -48,6 +48,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Jamesnet.Wpf": {
+              "target": "Package",
+              "version": "[1.0.0.33, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
