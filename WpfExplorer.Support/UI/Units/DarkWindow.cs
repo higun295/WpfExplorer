@@ -1,9 +1,9 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using Jamesnet.Wpf.Controls;
+using System.Windows;
 
 namespace WpfExplorer.Support.UI.Units
 {
-    public class DarkWindow : Control
+    public class DarkWindow : JamesWindow
     {
         static DarkWindow()
         {
