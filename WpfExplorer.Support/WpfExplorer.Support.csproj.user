@@ -5,10 +5,19 @@
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Units\CloseButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Units\DarkScrollViewer.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\Units\DarkWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\MaximizeButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\MinimizeButton.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
