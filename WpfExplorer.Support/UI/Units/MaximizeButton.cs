@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace WpfExplorer.Support.UI.Units
 {
-    public class MaximizeButton : Control
+    public class MaximizeButton : Button
     {
         static MaximizeButton()
         {
