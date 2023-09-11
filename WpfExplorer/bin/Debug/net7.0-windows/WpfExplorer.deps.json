@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "WpfExplorer/1.0.0": {
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.33"
+          "Jamesnet.Wpf": "1.0.0.33",
+          "WpfExplorer.Support": "1.0.0"
         },
         "runtime": {
           "WpfExplorer.dll": {}
@@ -348,6 +349,14 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "WpfExplorer.Support/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.33"
+        },
+        "runtime": {
+          "WpfExplorer.Support.dll": {}
+        }
       }
     }
   },
@@ -636,6 +645,11 @@
       "sha512": "sha512-vPiKF4Yf02MS96Nzwcr8+WrvlhTx+camOgUzxhazU0hCzs2ESetWDCxaIT/MYdAw2oONYem1ow9PXWJjHkRUDw==",
       "path": "yamldotnet.netcore/1.0.0",
       "hashPath": "yamldotnet.netcore.1.0.0.nupkg.sha512"
+    },
+    "WpfExplorer.Support/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
