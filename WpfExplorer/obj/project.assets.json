@@ -608,6 +608,22 @@
         "runtime": {
           "lib/netstandard1.0/YamlDotNet.NetCore.dll": {}
         }
+      },
+      "WpfExplorer.Support/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.33"
+        },
+        "compile": {
+          "bin/placeholder/WpfExplorer.Support.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfExplorer.Support.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -2551,11 +2567,17 @@
         "yamldotnet.netcore.1.0.0.nupkg.sha512",
         "yamldotnet.netcore.nuspec"
       ]
+    },
+    "WpfExplorer.Support/1.0.0": {
+      "type": "project",
+      "path": "../WpfExplorer.Support/WpfExplorer.Support.csproj",
+      "msbuildProject": "../WpfExplorer.Support/WpfExplorer.Support.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "Jamesnet.Wpf >= 1.0.0.33"
+      "Jamesnet.Wpf >= 1.0.0.33",
+      "WpfExplorer.Support >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2595,7 +2617,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
+              "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
