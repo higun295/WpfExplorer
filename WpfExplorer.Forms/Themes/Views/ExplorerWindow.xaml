@@ -7,11 +7,15 @@
            TargetType="{x:Type views:ExplorerWindow}">
         <Setter Property="Content">
             <Setter.Value>
-                <units:FolderTreeView>
-                    <units:FolderTreeItem Header="Lucas" />
-                    <units:FolderTreeItem Header="Kevin" />
-                    <units:FolderTreeItem Header="Joolo" />
-                </units:FolderTreeView>
+                <StackPanel>
+                    <TextBlock Foreground="#FFFFFF"
+                               Text="{Binding TestTitle}" />
+                    <units:FolderTreeView>
+                        <units:FolderTreeItem Header="Lucas" />
+                        <units:FolderTreeItem Header="Kevin" />
+                        <units:FolderTreeItem Header="Joolo" />
+                    </units:FolderTreeView>
+                </StackPanel>
             </Setter.Value>
         </Setter>
     </Style>
