@@ -7,7 +7,11 @@
            TargetType="{x:Type views:ExplorerWindow}">
         <Setter Property="Content">
             <Setter.Value>
-                <units:FolderTreeView />
+                <units:FolderTreeView>
+                    <units:FolderTreeItem Header="Lucas" />
+                    <units:FolderTreeItem Header="Kevin" />
+                    <units:FolderTreeItem Header="Joolo" />
+                </units:FolderTreeView>
             </Setter.Value>
         </Setter>
     </Style>
