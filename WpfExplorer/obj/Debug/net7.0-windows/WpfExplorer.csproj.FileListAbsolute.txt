@@ -28,3 +28,5 @@ C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.genrunt
 C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\ref\WpfExplorer.dll
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Support.dll
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Support.pdb
+C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Forms.dll
+C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Forms.pdb
