@@ -1,14 +1,13 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:based="clr-namespace:WpfExplorer.Support.UI.Units;assembly=WpfExplorer.Support"
+                    xmlns:units="clr-namespace:WpfExplorer.Forms.UI.Units"
                     xmlns:views="clr-namespace:WpfExplorer.Forms.UI.Views">
     <Style BasedOn="{StaticResource {x:Type based:DarkWindow}}"
            TargetType="{x:Type views:ExplorerWindow}">
         <Setter Property="Content">
             <Setter.Value>
-                <TextBlock Margin="10"
-                           Foreground="#FFFFFF"
-                           Text="Window Content!" />
+                <units:FolderTreeView />
             </Setter.Value>
         </Setter>
     </Style>

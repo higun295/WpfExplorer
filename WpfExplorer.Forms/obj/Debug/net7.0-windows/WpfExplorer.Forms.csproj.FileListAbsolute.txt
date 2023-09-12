@@ -19,3 +19,4 @@ C:\Projects\WpfExplorer\WpfExplorer.Forms\obj\Debug\net7.0-windows\WpfExplorer.F
 C:\Projects\WpfExplorer\WpfExplorer.Forms\obj\Debug\net7.0-windows\refint\WpfExplorer.Forms.dll
 C:\Projects\WpfExplorer\WpfExplorer.Forms\obj\Debug\net7.0-windows\WpfExplorer.Forms.pdb
 C:\Projects\WpfExplorer\WpfExplorer.Forms\obj\Debug\net7.0-windows\ref\WpfExplorer.Forms.dll
+C:\Projects\WpfExplorer\WpfExplorer.Forms\obj\Debug\net7.0-windows\Themes\Units\FolderTreeView.baml

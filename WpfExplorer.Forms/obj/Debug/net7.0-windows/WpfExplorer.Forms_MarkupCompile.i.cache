@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 
-2-459657686
+3-260394565
 
-4-1615312339
+5-1035482388
 211-1768429082
-Themes\Generic.xaml;Themes\Views\ExplorerWindow.xaml;
+Themes\Generic.xaml;Themes\Units\FolderTreeView.xaml;Themes\Views\ExplorerWindow.xaml;
 
 True
 
