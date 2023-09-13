@@ -9,7 +9,7 @@
             <Setter.Value>
                 <StackPanel>
                     <TextBlock Foreground="#FFFFFF"
-                               Text="{Binding TestTitle}" />
+                               Text="{Binding}" />
                     <units:FolderTreeView>
                         <units:FolderTreeItem Header="Lucas" />
                         <units:FolderTreeItem Header="Kevin" />
