@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using WpfExplorer.Forms.Local.ViewModels;
 using WpfExplorer.Support.UI.Units;
 
 namespace WpfExplorer.Forms.UI.Views
@@ -12,7 +13,7 @@ namespace WpfExplorer.Forms.UI.Views
 
         public ExplorerWindow()
         {
-            DataContext = new ExplorerWindow();
+            DataContext = new ExplorerViewModel();
         }
     }
 }
