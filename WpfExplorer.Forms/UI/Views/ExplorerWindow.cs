@@ -10,10 +10,5 @@ namespace WpfExplorer.Forms.UI.Views
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(ExplorerWindow), new FrameworkPropertyMetadata(typeof(ExplorerWindow)));
         }
-
-        public ExplorerWindow()
-        {
-            DataContext = new ExplorerViewModel();
-        }
     }
 }

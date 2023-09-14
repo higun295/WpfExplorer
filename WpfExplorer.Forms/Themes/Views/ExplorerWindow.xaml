@@ -10,10 +10,16 @@
                 <StackPanel>
                     <TextBlock Foreground="#FFFFFF"
                                Text="{Binding}" />
+                    <TextBlock Foreground="#FFFFFF"
+                               Text="{Binding DownloadDirectory}" />
+                    <TextBlock Foreground="#FFFFFF"
+                               Text="{Binding DocumentsDirectory}" />
+                    <TextBlock Foreground="#FFFFFF"
+                               Text="{Binding PicturesDirectory}" />
                     <units:FolderTreeView>
-                        <units:FolderTreeItem Header="Lucas" />
-                        <units:FolderTreeItem Header="Kevin" />
-                        <units:FolderTreeItem Header="Joolo" />
+                        <units:FolderTreeItem Header="dimohy" />
+                        <units:FolderTreeItem Header="vincent" />
+                        <units:FolderTreeItem Header="rkttu" />
                     </units:FolderTreeView>
                 </StackPanel>
             </Setter.Value>
