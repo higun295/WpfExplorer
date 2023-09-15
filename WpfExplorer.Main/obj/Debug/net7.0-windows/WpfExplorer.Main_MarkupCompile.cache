@@ -1,5 +1,5 @@
 ﻿WpfExplorer.Main
-1.0.0.0
+
 
 library
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 
 21940391596
 
-4-1464835581
+2-434614813
 211-1768429082
 Themes\Generic.xaml;Themes\Views\MainContent.xaml;
 
-True
+False
 

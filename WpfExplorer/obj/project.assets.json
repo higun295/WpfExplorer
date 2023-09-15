@@ -626,6 +626,23 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "WpfExplorer.Main/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.33",
+          "WpfExplorer.Support": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WpfExplorer.Main.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfExplorer.Main.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "WpfExplorer.Support/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2590,6 +2607,11 @@
       "path": "../WpfExplorer.Forms/WpfExplorer.Forms.csproj",
       "msbuildProject": "../WpfExplorer.Forms/WpfExplorer.Forms.csproj"
     },
+    "WpfExplorer.Main/1.0.0": {
+      "type": "project",
+      "path": "../WpfExplorer.Main/WpfExplorer.Main.csproj",
+      "msbuildProject": "../WpfExplorer.Main/WpfExplorer.Main.csproj"
+    },
     "WpfExplorer.Support/1.0.0": {
       "type": "project",
       "path": "../WpfExplorer.Support/WpfExplorer.Support.csproj",
@@ -2600,6 +2622,7 @@
     "net7.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.33",
       "WpfExplorer.Forms >= 1.0.0",
+      "WpfExplorer.Main >= 1.0.0",
       "WpfExplorer.Support >= 1.0.0"
     ]
   },
@@ -2643,6 +2666,9 @@
           "projectReferences": {
             "C:\\Projects\\WpfExplorer\\WpfExplorer.Forms\\WpfExplorer.Forms.csproj": {
               "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Forms\\WpfExplorer.Forms.csproj"
+            },
+            "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {
+              "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj"
             },
             "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
               "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
