@@ -4,13 +4,13 @@ C:\Projects\WpfExplorer\WpfExplorer.Support\bin\Debug\net7.0-windows\WpfExplorer
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.csproj.AssemblyReference.cache
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Generic.baml
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\DarkScrollViewer.baml
-C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\DarkWindow.baml
-C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\MaximizeButton.baml
-C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\MinimizeButton.baml
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support_MarkupCompile.cache
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support_MarkupCompile.lref
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\CloseButton.baml
+C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\DarkWindow.baml
+C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\MaximizeButton.baml
+C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\Themes\Units\MinimizeButton.baml
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.g.resources
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.AssemblyInfoInputs.cache
