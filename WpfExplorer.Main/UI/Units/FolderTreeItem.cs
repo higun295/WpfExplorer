@@ -1,7 +1,7 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows.Controls;
+using System.Windows;
 
-namespace WpfExplorer.Forms.UI.Units
+namespace WpfExplorer.Main.UI.Units
 {
     public class FolderTreeItem : TreeViewItem
     {

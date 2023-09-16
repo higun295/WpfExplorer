@@ -19,3 +19,5 @@ C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Ma
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Main.csproj.CoreCompileInputs.cache
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Main.csproj.CopyComplete
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\ref\WpfExplorer.Main.dll
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FolderTreeItem.baml
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FolderTreeView.baml

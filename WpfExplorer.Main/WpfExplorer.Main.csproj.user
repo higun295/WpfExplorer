@@ -5,6 +5,12 @@
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Units\FolderTreeItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\FolderTreeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Views\MainContent.xaml">
       <SubType>Designer</SubType>
     </Page>
