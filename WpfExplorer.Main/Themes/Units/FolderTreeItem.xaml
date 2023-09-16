@@ -10,8 +10,15 @@
                 <ControlTemplate TargetType="{x:Type units:FolderTreeItem}">
                     <StackPanel>
                         <TextBlock Text="{Binding Name}" />
-                        <ItemsPresenter Margin="{Binding Depth, Converter={cnvts:DepthConverter}}" />
+                        <ItemsPresenter x:Name="items"
+                                        Margin="{Binding Depth, Converter={cnvts:DepthConverter}}"
+                                        Visibility="Collapsed" />
                     </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsExpanded" Value="True">
+                            <Setter TargetName="items" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
