@@ -30,3 +30,5 @@ C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Support
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Support.pdb
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Forms.dll
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Forms.pdb
+C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Main.dll
+C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Main.pdb

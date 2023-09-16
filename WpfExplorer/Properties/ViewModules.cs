@@ -5,7 +5,7 @@ using WpfExplorer.Main.UI.Views;
 
 namespace WpfExplorer.Properties
 {
-    internal class ViewModule : IModule
+    internal class ViewModules : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {

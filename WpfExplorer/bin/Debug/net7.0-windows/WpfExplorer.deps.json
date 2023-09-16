@@ -10,6 +10,7 @@
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.33",
           "WpfExplorer.Forms": "1.0.0",
+          "WpfExplorer.Main": "1.0.0",
           "WpfExplorer.Support": "1.0.0"
         },
         "runtime": {
@@ -360,6 +361,15 @@
           "WpfExplorer.Forms.dll": {}
         }
       },
+      "WpfExplorer.Main/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.33",
+          "WpfExplorer.Support": "1.0.0"
+        },
+        "runtime": {
+          "WpfExplorer.Main.dll": {}
+        }
+      },
       "WpfExplorer.Support/1.0.0": {
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.33"
@@ -657,6 +667,11 @@
       "hashPath": "yamldotnet.netcore.1.0.0.nupkg.sha512"
     },
     "WpfExplorer.Forms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfExplorer.Main/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
