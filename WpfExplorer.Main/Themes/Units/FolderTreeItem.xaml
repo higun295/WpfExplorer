@@ -9,7 +9,11 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:FolderTreeItem}">
                     <StackPanel>
-                        <TextBlock Text="{Binding Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <units:ExpandButton Foreground="{TemplateBinding Foreground}"
+                                                IsChecked="{Binding RelativeSource={RelativeSource AncestorType=units:FolderTreeItem}, Path=IsExpanded}" />
+                            <TextBlock Text="{Binding Name}" />
+                        </StackPanel>
                         <ItemsPresenter x:Name="items"
                                         Margin="{Binding Depth, Converter={cnvts:DepthConverter}}"
                                         Visibility="Collapsed" />
