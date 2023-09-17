@@ -3,13 +3,14 @@
                     xmlns:cnvts="clr-namespace:WpfExplorer.Support.Local.Converters;assembly=WpfExplorer.Support"
                     xmlns:james="clr-namespace:Jamesnet.Wpf.Controls;assembly=Jamesnet.Wpf"
                     xmlns:units="clr-namespace:WpfExplorer.Main.UI.Units">
+
     <Style TargetType="{x:Type units:FolderTreeItem}">
         <Setter Property="AlternationCount" Value="2" />
         <Setter Property="Background" Value="Transparent" />
-        <Setter Property="ItemsSource" Value="{Binding Children}" />
-        <Setter Property="IsExpanded" Value="{Binding IsFolderExpanded, Mode=TwoWay}" />
         <Setter Property="Foreground" Value="#FFFFFF" />
+        <Setter Property="IsExpanded" Value="{Binding IsFolderExpanded, Mode=TwoWay}" />
         <Setter Property="IsSelected" Value="{Binding IsFolderSelected}" />
+        <Setter Property="ItemsSource" Value="{Binding Children}" />
         <Setter Property="SnapsToDevicePixels" Value="True" />
         <Setter Property="UseLayoutRounding" Value="True" />
         <Setter Property="Template">
@@ -52,6 +53,7 @@
                         <DataTrigger Binding="{Binding IconType}"
                                      Value="Folder">
                             <Setter TargetName="icon" Property="Fill" Value="#FFEFB13A" />
+                            <Setter Property="Background" Value="#313131" />
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsDenied}"
                                      Value="True">
