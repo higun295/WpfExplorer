@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cnvts="clr-namespace:WpfExplorer.Support.Local.Converters;assembly=WpfExplorer.Support"
                     xmlns:james="clr-namespace:Jamesnet.Wpf.Controls;assembly=Jamesnet.Wpf"
                     xmlns:units="clr-namespace:WpfExplorer.Main.UI.Units">
     <Style TargetType="{x:Type units:FileListItem}">
@@ -42,7 +43,7 @@
                                        HorizontalAlignment="Right"
                                        VerticalAlignment="Center"
                                        Foreground="#CCCCCC"
-                                       Text="{Binding Length}"
+                                       Text="{Binding Length, Converter={cnvts:FileSizeConverter}}"
                                        TextAlignment="Right" />
                         </Grid>
                     </Border>

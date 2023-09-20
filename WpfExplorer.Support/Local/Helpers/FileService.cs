@@ -12,15 +12,17 @@ namespace WpfExplorer.Support.Local.Helpers
     public class FileService
     {
         private readonly DirectoryManager _directoryManager;
+        private readonly NavigatorService _navigatorService;
 
-        public FileService(DirectoryManager directoryManager)
+        public FileService(DirectoryManager directoryManager, NavigatorService navigatorService)
         {
             _directoryManager = directoryManager;
+            _navigatorService = navigatorService;
         }
 
         public List<FolderInfo> GenerateRootNodes()
         {
-            List<FolderInfo> roots = new List<FolderInfo>()
+            List<FolderInfo> roots = new()
             {
                 CreateFolderInfo(1, "Download", IconType.ArrowDownBox, _directoryManager.DownloadDirectory),
                 CreateFolderInfo(1, "Documents", IconType.TextBox, _directoryManager.DocumentsDirectory),
@@ -29,14 +31,15 @@ namespace WpfExplorer.Support.Local.Helpers
 
             foreach (DriveInfo drive in DriveInfo.GetDrives())
             {
-                var name = $"{drive.VolumeLabel}({drive.RootDirectory.FullName.Replace("\\", "")})";
+                var name = $"{drive.VolumeLabel} ({drive.RootDirectory.FullName.Replace("\\", "")})";
                 roots.Add(CreateFolderInfo(1, name, IconType.MicrosoftWindows, drive.Name));
             }
 
             return roots;
         }
 
-        private static FolderInfo CreateFolderInfo(int depth, string name, IconType iconType, string fullPath)
+        private static FolderInfo CreateFolderInfo
+            (int depth, string name, IconType iconType, string fullPath)
         {
             return new FolderInfo
             {
@@ -50,7 +53,7 @@ namespace WpfExplorer.Support.Local.Helpers
 
         public void RefreshSubdirectories(FolderInfo parent)
         {
-            var newChildren = FetchSubDirectories(parent);
+            var newChildren = FetchSubdirectories(parent);
 
             var oldChildrenDict = parent.Children.ToDictionary(c => c.FullPath);
             var newChildrenDict = newChildren.ToDictionary(c => c.FullPath);
@@ -65,7 +68,7 @@ namespace WpfExplorer.Support.Local.Helpers
             }
         }
 
-        private static List<FolderInfo> FetchSubDirectories(FolderInfo parent)
+        private static List<FolderInfo> FetchSubdirectories(FolderInfo parent)
         {
             var children = new List<FolderInfo>();
             try
@@ -88,6 +91,59 @@ namespace WpfExplorer.Support.Local.Helpers
                 Debug.WriteLine(ex.Message);
             }
             return children;
+        }
+
+        public void TryRefreshFiles(ObservableCollection<FolderInfo> files, out bool isAccessDenied)
+        {
+            var path = _navigatorService.Current.FullPath;
+            isAccessDenied = !Directory.Exists(path) || !IsAccessible(path);
+
+            if (!isAccessDenied)
+            {
+                files.Clear();
+                files.AddRange(FetchFilesAndDirectories(path));
+            }
+        }
+
+        private static bool IsAccessible(string path)
+        {
+            try
+            {
+                Directory.GetDirectories(path);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private static List<FolderInfo> FetchFilesAndDirectories(string path)
+        {
+            return Directory.GetFileSystemEntries(path)
+                .Select(entry => new FolderInfo
+                {
+                    Name = Path.GetFileName(entry),
+                    IconType = Directory.Exists(entry) ? IconType.Folder : DetermineIconType(entry),
+                    FullPath = entry,
+                    Length = Directory.Exists(entry) ? 0 : new FileInfo(entry).Length
+                })
+                .OrderBy(info => info.IconType == IconType.Folder ? 0 : 1)
+                .ToList();
+        }
+
+        private static IconType DetermineIconType(string file)
+        {
+            var ext = Path.GetExtension(file).ToUpper();
+            return ext switch
+            {
+                ".JPG" or ".JPEG" or ".GIF" or ".BMP" or ".PNG" => IconType.FileImage,
+                ".PDF" => IconType.FilePdf,
+                ".ZIP" => IconType.FileZip,
+                ".EXE" => IconType.FileCheck,
+                ".DOCX" or ".DOC" => IconType.FileWord,
+                _ => IconType.File,
+            };
         }
     }
 }

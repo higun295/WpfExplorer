@@ -25,8 +25,8 @@
                                 <Button Command="{Binding GoForwardCommand}"
                                         Content="Go Forward" />
                             </StackPanel>
-                            <DataGrid Grid.Column="2"
-                                      ItemsSource="{Binding Files}" />
+                            <units:FileListBox Grid.Column="2"
+                                               ItemsSource="{Binding Files}" />
                         </Grid>
                     </Border>
                 </ControlTemplate>
