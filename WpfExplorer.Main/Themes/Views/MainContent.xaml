@@ -9,8 +9,25 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <units:FolderTreeView ItemsSource="{Binding Roots}"
-                                              SelectionCommand="{Binding FolderChangedCommand}" />
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <units:FolderTreeView ItemsSource="{Binding Roots}"
+                                                  SelectionCommand="{Binding FolderChangedCommand}" />
+                            <StackPanel Grid.Column="1">
+                                <Button Command="{Binding GoToParentCommand}"
+                                        Content="Go Up" />
+                                <Button Command="{Binding GoBackCommand}"
+                                        Content="Go Back" />
+                                <Button Command="{Binding GoForwardCommand}"
+                                        Content="Go Forward" />
+                            </StackPanel>
+                            <DataGrid Grid.Column="2"
+                                      ItemsSource="{Binding Files}" />
+                        </Grid>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

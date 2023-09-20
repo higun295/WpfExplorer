@@ -58,5 +58,23 @@ namespace WpfExplorer.Main.Local.ViewModels
             _fileService.RefreshSubdirectories(folderInfo);
             _navigatorService.ChangeLocation(folderInfo);
         }
+
+        [RelayCommand]
+        private void GoBack()
+        {
+            _navigatorService.GoBack();
+        }
+
+        [RelayCommand]
+        private void GoForward()
+        {
+            _navigatorService.GoForward();
+        }
+
+        [RelayCommand]
+        private void GoToParent()
+        {
+            _navigatorService.GoToParent();
+        }
     }
 }

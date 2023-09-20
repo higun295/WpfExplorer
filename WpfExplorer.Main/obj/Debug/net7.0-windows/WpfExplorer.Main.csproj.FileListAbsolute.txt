@@ -22,3 +22,5 @@ C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\refint\WpfExpl
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Main.pdb
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\ref\WpfExplorer.Main.dll
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\ExpandButton.baml
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FileListItem.baml
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FileListBox.baml

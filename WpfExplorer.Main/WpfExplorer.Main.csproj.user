@@ -8,6 +8,12 @@
     <Page Update="Themes\Units\ExpandButton.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Units\FileListBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\FileListItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Units\FolderTreeItem.xaml">
       <SubType>Designer</SubType>
     </Page>
