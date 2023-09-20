@@ -11,11 +11,13 @@ namespace WpfExplorer.Support.Local.Helpers
 {
     public class FileService
     {
+        private readonly ColorManager _colorManager;
         private readonly DirectoryManager _directoryManager;
         private readonly NavigatorService _navigatorService;
 
-        public FileService(DirectoryManager directoryManager, NavigatorService navigatorService)
+        public FileService(ColorManager colorManager, DirectoryManager directoryManager, NavigatorService navigatorService)
         {
+            _colorManager = colorManager;
             _directoryManager = directoryManager;
             _navigatorService = navigatorService;
         }
@@ -144,6 +146,34 @@ namespace WpfExplorer.Support.Local.Helpers
                 ".DOCX" or ".DOC" => IconType.FileWord,
                 _ => IconType.File,
             };
+        }
+
+        public void RefreshLocations(ObservableCollection<LocationInfo> locations)
+        {
+            List<LocationInfo> source = GenerateLocationInfo(_navigatorService.Current.FullPath);
+
+            locations.Clear();
+            locations.AddRange(source);
+        }
+
+        public List<LocationInfo> GenerateLocationInfo(string path)
+        {
+            List<LocationInfo> locations = new();
+            while (!string.IsNullOrEmpty(path))
+            {
+                string name = Path.GetFileName(path);
+                name = name == "" ? path : name;
+                locations.Insert(0, new LocationInfo(name, path));
+                path = Path.GetDirectoryName(path);
+            }
+
+            int zindex = 1000;
+            int cnt = 0;
+            locations.ForEach(loc => loc.Color = _colorManager.PolygonColors[cnt++]);
+            locations.First().IsRoot = true;
+            locations.ForEach(loc => loc.Zindex = zindex--);
+
+            return locations;
         }
     }
 }

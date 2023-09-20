@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:james="clr-namespace:Jamesnet.Wpf.Controls;assembly=Jamesnet.Wpf"
                     xmlns:units="clr-namespace:WpfExplorer.Main.UI.Units"
                     xmlns:views="clr-namespace:WpfExplorer.Main.UI.Views">
     <Style TargetType="{x:Type views:MainContent}">
@@ -9,25 +10,14 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition />
-                            </Grid.ColumnDefinitions>
+                        <james:JamesGrid Columns="Auto, *"
+                                         Rows="Auto, *">
+                            <units:PolygonSelector Grid.ColumnSpan="2"
+                                                   ItemsSource="{Binding Locations}" />
                             <units:FolderTreeView ItemsSource="{Binding Roots}"
                                                   SelectionCommand="{Binding FolderChangedCommand}" />
-                            <StackPanel Grid.Column="1">
-                                <Button Command="{Binding GoToParentCommand}"
-                                        Content="Go Up" />
-                                <Button Command="{Binding GoBackCommand}"
-                                        Content="Go Back" />
-                                <Button Command="{Binding GoForwardCommand}"
-                                        Content="Go Forward" />
-                            </StackPanel>
-                            <units:FileListBox Grid.Column="2"
-                                               ItemsSource="{Binding Files}" />
-                        </Grid>
+                            <units:FileListBox ItemsSource="{Binding Files}" />
+                        </james:JamesGrid>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

@@ -20,6 +20,12 @@
     <Page Update="Themes\Units\FolderTreeView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Units\PolygonSelector.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\PolygonSelectorItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Views\MainContent.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -24,3 +24,5 @@ C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\ref\WpfExplore
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\ExpandButton.baml
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FileListItem.baml
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FileListBox.baml
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\PolygonSelector.baml
+C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\PolygonSelectorItem.baml
