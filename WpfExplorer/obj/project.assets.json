@@ -630,7 +630,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.34"
+          "Jamesnet.Wpf": "1.0.0.33"
         },
         "compile": {
           "bin/placeholder/WpfExplorer.Location.dll": {}
@@ -2738,16 +2738,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Jamesnet.Wpf from 1.0.0.34 to 1.0.0.33. Reference the package directly from the project to select a different version. \r\n WpfExplorer -> WpfExplorer.Location -> Jamesnet.Wpf (>= 1.0.0.34) \r\n WpfExplorer -> Jamesnet.Wpf (>= 1.0.0.33)",
-      "libraryId": "Jamesnet.Wpf",
-      "targetGraphs": [
-        "net7.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

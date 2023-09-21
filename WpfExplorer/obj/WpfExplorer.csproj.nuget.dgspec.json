@@ -128,7 +128,7 @@
           "dependencies": {
             "Jamesnet.Wpf": {
               "target": "Package",
-              "version": "[1.0.0.34, )"
+              "version": "[1.0.0.33, )"
             }
           },
           "imports": [
