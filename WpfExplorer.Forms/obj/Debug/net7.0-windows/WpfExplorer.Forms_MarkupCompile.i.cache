@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 211-1768429082
 Themes\Generic.xaml;Themes\Views\ExplorerWindow.xaml;
 
-False
+True
 

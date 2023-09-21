@@ -626,6 +626,22 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "WpfExplorer.Location/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.34"
+        },
+        "compile": {
+          "bin/placeholder/WpfExplorer.Location.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfExplorer.Location.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "WpfExplorer.Main/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2607,6 +2623,11 @@
       "path": "../WpfExplorer.Forms/WpfExplorer.Forms.csproj",
       "msbuildProject": "../WpfExplorer.Forms/WpfExplorer.Forms.csproj"
     },
+    "WpfExplorer.Location/1.0.0": {
+      "type": "project",
+      "path": "../WpfExplorer.Location/WpfExplorer.Location.csproj",
+      "msbuildProject": "../WpfExplorer.Location/WpfExplorer.Location.csproj"
+    },
     "WpfExplorer.Main/1.0.0": {
       "type": "project",
       "path": "../WpfExplorer.Main/WpfExplorer.Main.csproj",
@@ -2622,6 +2643,7 @@
     "net7.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.33",
       "WpfExplorer.Forms >= 1.0.0",
+      "WpfExplorer.Location >= 1.0.0",
       "WpfExplorer.Main >= 1.0.0",
       "WpfExplorer.Support >= 1.0.0"
     ]
@@ -2666,6 +2688,9 @@
           "projectReferences": {
             "C:\\Projects\\WpfExplorer\\WpfExplorer.Forms\\WpfExplorer.Forms.csproj": {
               "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Forms\\WpfExplorer.Forms.csproj"
+            },
+            "C:\\Projects\\WpfExplorer\\WpfExplorer.Location\\WpfExplorer.Location.csproj": {
+              "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Location\\WpfExplorer.Location.csproj"
             },
             "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {
               "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj"
@@ -2713,5 +2738,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Jamesnet.Wpf from 1.0.0.34 to 1.0.0.33. Reference the package directly from the project to select a different version. \r\n WpfExplorer -> WpfExplorer.Location -> Jamesnet.Wpf (>= 1.0.0.34) \r\n WpfExplorer -> Jamesnet.Wpf (>= 1.0.0.33)",
+      "libraryId": "Jamesnet.Wpf",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
 }
