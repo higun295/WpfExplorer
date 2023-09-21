@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfExplorer.Support", "WpfE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfExplorer.Forms", "WpfExplorer.Forms\WpfExplorer.Forms.csproj", "{6FD750A7-496F-45FF-913B-1D3FD28B3534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExplorer.Main", "WpfExplorer.Main\WpfExplorer.Main.csproj", "{37F446CC-A6CE-471A-B018-D0FB3A286D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfExplorer.Main", "WpfExplorer.Main\WpfExplorer.Main.csproj", "{37F446CC-A6CE-471A-B018-D0FB3A286D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExplorer.Location", "WpfExplorer.Location\WpfExplorer.Location.csproj", "{0473B166-BE49-4075-80D9-12F25844ADF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{37F446CC-A6CE-471A-B018-D0FB3A286D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F446CC-A6CE-471A-B018-D0FB3A286D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F446CC-A6CE-471A-B018-D0FB3A286D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0473B166-BE49-4075-80D9-12F25844ADF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0473B166-BE49-4075-80D9-12F25844ADF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0473B166-BE49-4075-80D9-12F25844ADF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0473B166-BE49-4075-80D9-12F25844ADF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
