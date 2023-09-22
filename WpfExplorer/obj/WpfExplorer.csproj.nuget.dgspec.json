@@ -113,7 +113,11 @@
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
+                "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

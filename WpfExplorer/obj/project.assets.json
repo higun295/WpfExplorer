@@ -630,7 +630,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.33"
+          "Jamesnet.Wpf": "1.0.0.33",
+          "WpfExplorer.Support": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WpfExplorer.Location.dll": {}
