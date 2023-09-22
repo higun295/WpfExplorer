@@ -2645,8 +2645,7 @@
       "Jamesnet.Wpf >= 1.0.0.33",
       "WpfExplorer.Forms >= 1.0.0",
       "WpfExplorer.Location >= 1.0.0",
-      "WpfExplorer.Main >= 1.0.0",
-      "WpfExplorer.Support >= 1.0.0"
+      "WpfExplorer.Main >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2695,9 +2694,6 @@
             },
             "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {
               "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj"
-            },
-            "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
-              "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
             }
           }
         }

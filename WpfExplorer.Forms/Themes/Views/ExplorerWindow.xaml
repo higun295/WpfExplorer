@@ -5,9 +5,15 @@
                     xmlns:views="clr-namespace:WpfExplorer.Forms.UI.Views">
     <Style BasedOn="{StaticResource {x:Type based:DarkWindow}}"
            TargetType="{x:Type views:ExplorerWindow}">
-        <Setter Property="Content">
+        <Setter Property="ContentTemplate">
             <Setter.Value>
-                <james:JamesRegion RegionName="MainRegion" />
+                <DataTemplate>
+                    <james:JamesGrid Columns="*"
+                                     Rows="Auto, Auto">
+                        <james:JamesRegion RegionName="LocationRegion" />
+                        <james:JamesRegion RegionName="MainRegion" />
+                    </james:JamesGrid>
+                </DataTemplate>
             </Setter.Value>
         </Setter>
     </Style>

@@ -2,8 +2,6 @@
 using Jamesnet.Wpf.Mvvm;
 using Prism.Ioc;
 using Prism.Regions;
-using System.Collections.Generic;
-using WpfExplorer.Support.Local.Models;
 
 namespace WpfExplorer.Forms.Local.ViewModels
 {
@@ -11,8 +9,6 @@ namespace WpfExplorer.Forms.Local.ViewModels
     {
         private readonly IContainerProvider _containerProvider;
         private readonly IRegionManager _regionManager;
-
-        public List<FolderInfo> Roots { get; init; }
 
         public ExplorerViewModel(IContainerProvider containerProvider, IRegionManager regionManager)
         {
@@ -22,14 +18,20 @@ namespace WpfExplorer.Forms.Local.ViewModels
 
         public void OnLoaded(IViewable view)
         {
-            IRegion mainRegion = _regionManager.Regions["MainRegion"];
-            IViewable mainContent = _containerProvider.Resolve<IViewable>("MainContent");
+            ImportContent("MainContent", "MainRegion");
+            ImportContent("LocationContent", "LocationRegion");
+        }
 
-            if (!mainRegion.Views.Contains(mainContent))
+        private void ImportContent(string name, string regionName)
+        {
+            IViewable content = _containerProvider.Resolve<IViewable>(name);
+            IRegion region = _regionManager.Regions[regionName];
+
+            if (!region.Views.Contains(content))
             {
-                mainRegion.Add(mainContent);
+                region.Add(content);
             }
-            mainRegion.Activate(mainContent);
+            region.Activate(content);
         }
     }
 }
