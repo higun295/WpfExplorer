@@ -10,7 +10,43 @@
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate />
+                <ControlTemplate TargetType="{x:Type units:LocatorButton}">
+                    <ControlTemplate.Resources />
+                    <Border x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <james:JamesIcon x:Name="icon"
+                                         Width="15"
+                                         Height="15"
+                                         Fill="#DDDDDD" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="icon" Property="Fill" Value="#FFFFFF" />
+                            <Setter TargetName="border" Property="Opacity" Value="1" />
+                            <Setter TargetName="border" Property="Background" Value="#333333" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#3665B3" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border" Property="Opacity" Value="0.2" />
+                        </Trigger>
+                        <Trigger Property="ActionType" Value="Undo">
+                            <Setter TargetName="icon" Property="Icon" Value="ArrowLeftBold" />
+                            <Setter TargetName="border" Property="CornerRadius" Value="0 0 0 0" />
+                        </Trigger>
+                        <Trigger Property="ActionType" Value="Redo">
+                            <Setter TargetName="icon" Property="Icon" Value="ArrowRightBold" />
+                            <Setter TargetName="border" Property="CornerRadius" Value="0 4 4 0" />
+                        </Trigger>
+                        <Trigger Property="ActionType" Value="Up">
+                            <Setter TargetName="icon" Property="Icon" Value="ArrowUpBold" />
+                            <Setter TargetName="border" Property="CornerRadius" Value="0 0 0 0" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
             </Setter.Value>
         </Setter>
     </Style>
