@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {}
+    "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {
+    "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj",
+        "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj",
         "projectName": "WpfExplorer.Main",
-        "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj",
-        "packagesPath": "C:\\Users\\higun\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Main\\obj\\",
+        "projectPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Main\\WpfExplorer.Main.csproj",
+        "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
+        "outputPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\higun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Users\\DLIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,17 +29,19 @@
           "net7.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/P7ftnwgXCiEGHtl2KCshaOj6ItD1dsc8ExihRW8XURTgqVZJAF/api": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
-                "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
+              "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
+                "projectPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj"
               }
             }
           }
@@ -77,26 +80,27 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
+    "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj",
+        "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj",
         "projectName": "WpfExplorer.Support",
-        "projectPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj",
-        "packagesPath": "C:\\Users\\higun\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\WpfExplorer\\WpfExplorer.Support\\obj\\",
+        "projectPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\WpfExplorer.Support.csproj",
+        "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
+        "outputPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WpfExplorer\\WpfExplorer.Support\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\higun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Users\\DLIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -105,10 +109,12 @@
           "net7.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/P7ftnwgXCiEGHtl2KCshaOj6ItD1dsc8ExihRW8XURTgqVZJAF/api": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
@@ -150,7 +156,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
