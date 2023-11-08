@@ -11,7 +11,25 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <TextBlock Text="LocationContent!!!" />
+                        <james:JamesGrid Columns="Auto, *"
+                                         Rows="Auto">
+                            <Border Margin="6 4 6 4"
+                                    HorizontalAlignment="Left"
+                                    Background="#444444"
+                                    BorderBrush="#222222"
+                                    BorderThickness="1"
+                                    CornerRadius="4">
+                                <StackPanel HorizontalAlignment="Left"
+                                            Orientation="Horizontal">
+                                    <units:LocatorButton ActionType="Up"
+                                                         Command="{Binding UpCommand}" />
+                                    <units:LocatorButton ActionType="Undo"
+                                                         Command="{Binding UndoCommand}" />
+                                    <units:LocatorButton ActionType="Redo"
+                                                         Command="{Binding RedoCommand}" />
+                                </StackPanel>
+                            </Border>
+                        </james:JamesGrid>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
