@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WpfExplorer.Main
-build_property.ProjectDir = C:\Projects\WpfExplorer\WpfExplorer.Main\
+build_property.ProjectDir = D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Main\
