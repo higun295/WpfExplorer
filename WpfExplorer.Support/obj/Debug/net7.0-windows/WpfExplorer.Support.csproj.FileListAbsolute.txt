@@ -20,3 +20,6 @@ C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\refint\WpfExplorer.Support.dll
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.pdb
 C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\ref\WpfExplorer.Support.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\refint\WpfExplorer.Support.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\WpfExplorer.Support.pdb

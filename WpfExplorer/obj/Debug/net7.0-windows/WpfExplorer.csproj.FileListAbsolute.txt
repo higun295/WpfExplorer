@@ -34,3 +34,6 @@ C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.genrunt
 C:\Projects\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\ref\WpfExplorer.dll
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Location.dll
 C:\Projects\WpfExplorer\WpfExplorer\bin\Debug\net7.0-windows\WpfExplorer.Location.pdb
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\refint\WpfExplorer.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer\obj\Debug\net7.0-windows\WpfExplorer.pdb

@@ -26,3 +26,6 @@ C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\F
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\FileListBox.baml
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\PolygonSelector.baml
 C:\Projects\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\Themes\Units\PolygonSelectorItem.baml
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Main.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\refint\WpfExplorer.Main.dll
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Main\obj\Debug\net7.0-windows\WpfExplorer.Main.pdb
