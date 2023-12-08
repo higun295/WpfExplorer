@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Projects\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\
+D:\01_Projects\SELF_PROJECT\WPF\WpfExplorer\WpfExplorer.Support\obj\Debug\net7.0-windows\
 WpfExplorer.Support
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 6-448044139
 
 182088144062
-210-61768307
+2101147418511
 Themes\Generic.xaml;Themes\Units\CloseButton.xaml;Themes\Units\DarkScrollViewer.xaml;Themes\Units\DarkWindow.xaml;Themes\Units\MaximizeButton.xaml;Themes\Units\MinimizeButton.xaml;
 
 False
